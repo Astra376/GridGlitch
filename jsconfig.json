@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "dependencies": {
+    "vue": "^3.x.x",
+    "vue-router": "^4.x.x"
+  },
+  "exclude": ["node_modules", "dist"]
+}
