@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://<your-username>.github.io/<your-repo-name>",
+  "homepage": "https://astra376.github.io/gridglitch",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
