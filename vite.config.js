@@ -14,3 +14,8 @@ export default defineConfig({
     include: ['ace-builds']
   }
 })
+
+module.exports = defineConfig({
+  transpileDependencies: true,
+  publicPath: process.env.NODE_ENV === "production" ? "/vue-deploy/" : "/",
+})
