@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "homepage": "https://https://astra376.github.io/GridGlitch",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
