@@ -4,6 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   plugins: [vue()],
+  base: '/GridGlitch/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
@@ -15,7 +16,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      input: 'src/main.js',
+      input: '/src/main.js',
     },
   }
 })
