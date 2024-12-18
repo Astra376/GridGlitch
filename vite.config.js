@@ -12,5 +12,10 @@ export default defineConfig({
   },
   optimizeDeps: {
     include: ['ace-builds']
+  },
+  build: {
+    rollupOptions: {
+      input: 'src/main.js',
+    },
   }
 })
